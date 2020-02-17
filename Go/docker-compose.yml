@@ -1,9 +1,9 @@
 version: '3'
 services:
-  vuecli4:
+  golang:
     build: .
     ports:
-      - 9050:9050
+      - 9060:9060
     volumes:
       - .:/workdir
     tty: true
