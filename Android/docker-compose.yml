@@ -1,0 +1,15 @@
+version: '3'
+services:
+  android:
+    build: .
+    volumes:
+      - .:/workdir
+    tty: true
+#  emulator:
+#    image: mattsawyer/android-emulator
+#    ports:
+#      - 32812:22
+#      - 32811:5037
+#      - 32810:5554
+#      - 32809:5555
+#      - 32808:5900
