@@ -3,6 +3,7 @@
 # $ XSOCK=/tmp/.X11-unix && sudo docker run -i -v $XSOCK:$XSOCK -e DISPLAY -u developer -t [image-name]
 # Then run IntelliJ with:
 # /ideaIU-2019.3.3/bin/idea.sh
+# http://luozengbin.github.io/blog/2014-06-21-%5B%E3%83%A1%E3%83%A2%5D%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88x%E3%81%AE%E6%8E%A5%E7%B6%9A%E6%96%B9%E6%B3%95.html
 FROM alpine:3.8
 ENV LANG C.UTF-8
 RUN set -ex && \
